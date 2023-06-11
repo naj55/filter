@@ -2,17 +2,27 @@ import { ChakraProvider, Box, Card, CardBody, CardFooter, Stack, Heading, Text, 
 import React from 'react'
 import Nav from './Nav'
 import Footer from './Footer'
-import { useState } from 'react'
+
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { flowerData } from './flowerData'
 import { Grid, GridItem } from '@chakra-ui/react'
-import { useNavigate } from "react-router-dom";
+
 
 export default function cards() {
-    const Navigate = useNavigate();
+    const navigate = useNavigate();
     const email = localStorage.getItem("email")
     console.log(flowerData);
     const [search, setSearch] = useState("")
     console.log(search);
+
+    if (email == undefined) {
+        console.log("err")
+        useEffect(() => {
+            navigate("/")
+        }
+        )
+    }
 
     return (
         <>
