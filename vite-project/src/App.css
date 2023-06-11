@@ -1,0 +1,166 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: GE_SS_Two_Light;
+  src: url(../font/GE_SS_Two_Light.otf);
+}
+
+@font-face {
+  font-family: GE_SS_Two_Bold;
+  src: url(../font/GE_SS_Two_Bold.otf);
+}
+
+body {
+  background-color: #F9F5F6;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media only screen and (max-width:48em) {
+  #mygrid {
+    display: grid;
+    grid-template-columns: auto;
+    font-family: GE_SS_Two_Bold;
+    font-weight: 200;
+    font-size: 20px;
+    width: 15em;
+    margin-left: 60px;
+  }
+
+  #flexCard {
+    flex-direction: column-reverse;
+
+  }
+
+  #searchInp {
+    width: 20em;
+    margin-bottom: 2em;
+    height: 3em;
+    border-radius: 9px;
+    text-align: center;
+    border: 2px solid #F8E8EE;
+  }
+
+  #theImg {
+    width: 11em;
+  }
+
+  #loginFlex {
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+  }
+
+  #shadow1 {
+    width: 18em;
+    height: 25em;
+    margin-left: 40px;
+    margin-bottom: 40px;
+  }
+
+  #shadow2 {
+    width: 18em;
+    height: 21em;
+    margin-bottom: 40px;
+    margin-left: 40px;
+  }
+
+  #fomm {
+    width: 13em;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+
+  #loginImg {
+    height: 21em;
+  }
+
+  #myInput {
+    width: 15em;
+  }
+
+}
+
+#footer {
+  margin-bottom: 0px;
+  margin-top: 250px;
+  height: 17em;
+}
+
+#myInput {
+  width: 20em;
+  margin-bottom: 2em;
+  height: 3em;
+  border-radius: 9px;
+  text-align: center;
+}
+
+#searchInp {
+  width: 40em;
+  margin-bottom: 2em;
+  height: 3em;
+  border-radius: 9px;
+  text-align: center;
+  border: 2px solid #F8E8EE;
+}
+
+#title {
+  font-family: GE_SS_Two_Bold;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+#btn {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#btn2 {
+  font-size: 18px;
+  font-weight: 600;
+  width: 90px;
+  height: 30px;
+  border-radius: 9px;
+}
+
+#shadow1 {
+  box-shadow: 5px 5px 5px 5px #d6d5d5;
+}
+
+#shadow2 {
+  box-shadow: 5px 5px 5px 5px #d6d5d5;
+}
+
+#wallImg {
+  display: block;
+  margin: 0.5em 0;
+}
+
+#containerFlex {
+  width: 100%;
+}
+
+.backgroundImg {
+  background-image: url('./assets/wall.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+#title2 {
+  display: flex;
+  justify-content: center;
+  color: #d6d5d5;
+}
+
+#title22 {
+  margin-top: 350px;
+}
+
+#title3 {
+  color: #3B4529
+}
