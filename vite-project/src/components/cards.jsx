@@ -18,10 +18,10 @@ export default function cards() {
 
     if (email == undefined) {
         console.log("err")
-        useEffect(() => {
-            navigate("/")
-        })
-
+        window.location.href = "/"
+        // useEffect(() => {
+        //     navigate("/")
+        // })
     }
 
     return (
